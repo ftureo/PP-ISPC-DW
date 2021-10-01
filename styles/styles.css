@@ -1,0 +1,168 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* max-width: 100vw;
+    min-height: 100vh; */
+    font-family: 'Quicksand', sans-serif;
+}
+header{
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    margin-bottom: 2rem;
+}
+.containerBrand, .containerNavbar {
+    display: flex;
+    height: 100%;
+}
+.containerBrand{
+    height: 100%;
+}
+.containerTitleBrand{
+    /* width: 20vw; */
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+.nav-item{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.nav-link{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #752392;
+    font-size: 18px;
+    transition: 400ms ease-out;
+}
+.nav-link:hover{
+    color: white;
+    font-weight: 500;
+    border: 1px solid #3c0650;
+    background-color: #752392;
+    border-radius: 10px;
+    transition: 400ms ease;
+}
+.nav-link:focus{
+    display: none;
+}
+.slogan{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: 3vw;
+    background-color: #c088d4;
+    margin-bottom: 2vw;
+}
+.containerCards{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.containerCard{
+    /* width: 30%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #c088d4;
+    background-color: #e0d3e6;
+    margin-bottom: 1.5vw;
+    border-radius: 15px;
+}
+.containerCard:hover{
+    box-shadow: 8px -8px 7px #c088d4;
+    transition: 200ms ease;
+}
+.photoCard{
+    width: 65%;
+    height: 75%;
+    padding-top: 1vw;
+    margin-bottom: 1vw;
+}
+.caption{
+    font-size: 2vw;
+}
+.register{
+    color: white;
+    background-color: rgb(49, 194, 49);
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 200ms ease-in;
+    margin-bottom: 15px;
+}
+.register:hover{
+    color: white;
+    background-color: rgb(73, 185, 73);
+    background-color: green;
+    font-weight: bold;
+    font-size:  large;
+    transition: 200ms ease-out
+}
+.session{
+    background-color: rgb(123, 113, 255);
+}
+.session:hover{
+    background-color: rgb(10, 0, 150);
+}
+.signInForm{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1vw;
+    margin-bottom: 1vw;
+    border-radius: 3vw;
+    background-color: #D6BDCB;
+}
+.containerInput{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1vw;
+}
+.iconInput{
+    width: 10% !important;
+    padding: 5px;
+    font-size: 3vw;
+    background-color: #752392;
+}
+.inputForm{
+    height: 3vw;
+    width: 30vw;
+    background-color: #ffffffb8;
+    border: 1px solid gray
+}
+input:focus-visible{
+    outline: greenyellow 1px;
+}
+input:focus{
+    background-color: #cfceceb8;
+}
+input::placeholder{
+    color: black
+}
+.containerContent{
+    width: 75%;
+    background-color: #D6BDCB;
+}
